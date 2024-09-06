@@ -1,0 +1,6 @@
+url - https://sign-glove-c2254-default-rtdb.asia-southeast1.firebasedatabase.app/
+
+api key - AIzaSyDR-sbeEOkzUbtbbt0zafjXI2kEQpmn21M
+
+
+uid - bG3wBzq5IrUGqritpVQljY21U0C2

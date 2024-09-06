@@ -1,0 +1,54 @@
+body {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row; /* Keep items in a row */
+  height: 100vh;
+}
+
+.meters-container {
+  display: flex;
+  flex-direction: column; /* Stack meter bars vertically */
+  justify-content: center; /* Center meter bars vertically */
+  align-items: flex-start; /* Align meter bars to the left */
+  width: 40%;/* Adjust width for meter bars */
+  transform: translateX(20px);
+}
+
+.meter {
+  width: 80%; /* Take full width of container */
+  height: 7%;
+  /* Added some margin between meters */
+  padding: 10px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: flex-end; /* Align box to the right */
+  align-items: center;
+  width: 60%; /* Adjust width for box */
+}
+
+.box {
+  margin: 50px;
+  width: 50%;
+  height: 50%;
+  background-color: white;
+  border-radius: 100px; /* Made border radius uniform */
+  border: 2px solid rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 275px;
+}
+
+/* New class for feature data */
+.feature-data {
+  color: white;
+}
